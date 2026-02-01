@@ -1,153 +1,79 @@
-# Contributing to Python ExamDiff Pro
+# Contributing
 
-Thank you for your interest in contributing to Python ExamDiff Pro! This document provides guidelines and instructions for contributing.
+Thank you for your interest in contributing to this project! 🎉
 
-## Getting Started
+## How to Contribute
 
-1. **Fork the repository** on GitHub
-2. **Clone your fork** locally:
+### Reporting Bugs
+
+1. Check if the bug has already been reported in [Issues](https://github.com/gwaghmar/REPO_NAME/issues)
+2. If not, create a new issue using the bug report template
+3. Provide as much detail as possible:
+   - Steps to reproduce
+   - Expected vs actual behavior
+   - Environment details (OS, version, etc.)
+
+### Suggesting Features
+
+1. Check if the feature has already been suggested
+2. Create a new issue using the feature request template
+3. Explain the use case and proposed solution
+
+### Submitting Code
+
+1. **Fork the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/python-examdiff.git
-   cd python-examdiff
+   git clone https://github.com/gwaghmar/REPO_NAME.git
+   cd REPO_NAME
    ```
-3. **Create a branch** for your changes:
+
+2. **Create a feature branch**
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b feature/amazing-feature
    ```
+
+3. **Make your changes**
+   - Follow existing code style
+   - Add comments for complex logic
+   - Write tests for new features
+   - Update documentation as needed
+
+4. **Commit your changes**
+   ```bash
+   git commit -m 'Add amazing feature'
+   ```
+   Use clear, descriptive commit messages.
+
+5. **Push to your fork**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+
+6. **Open a Pull Request**
+   - Fill out the PR template
+   - Link any related issues
+   - Request review from maintainers
+
+## Code Style Guidelines
+
+- Follow the existing code style
+- Use meaningful variable and function names
+- Add docstrings/comments for complex logic
+- Keep functions focused and small
+- Write tests for new functionality
 
 ## Development Setup
 
-1. **Create a virtual environment** (recommended):
-   ```bash
-   python -m venv venv
-   venv\Scripts\activate  # Windows
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   pip install -r requirements.txt[dev]  # Development dependencies
-   ```
-
-3. **Run tests** to ensure everything works:
-   ```bash
-   pytest tests/ -v
-   ```
-
-## Coding Standards
-
-### Python Style
-
-- Follow **PEP 8** style guidelines
-- Use **type hints** for all function parameters and return values
-- Write **docstrings** for all classes and functions (Google style)
-- Maximum line length: **120 characters**
-
-### Code Quality
-
-- Write **clean, readable code**
-- Add **comments** for complex logic
-- Use **meaningful variable names**
-- Keep functions **focused and small** (ideally < 50 lines)
-
-### Example
-
-```python
-def compare_files(
-    file1_path: str,
-    file2_path: str,
-    options: Optional[Dict[str, Any]] = None
-) -> ComparisonResult:
-    """
-    Compare two files and return the differences.
-    
-    Args:
-        file1_path: Path to the first file
-        file2_path: Path to the second file
-        options: Optional comparison options
-        
-    Returns:
-        ComparisonResult object containing the differences
-        
-    Raises:
-        FileNotFoundError: If either file doesn't exist
-        IOError: If there's an error reading the files
-    """
-    # Implementation here
-    pass
-```
+[Add specific setup instructions for your project]
 
 ## Testing
 
-- Write **tests** for all new features
-- Ensure all **existing tests pass**
-- Aim for **>80% code coverage**
-- Use **pytest** for testing
-
-### Running Tests
-
-```bash
-# Run all tests
-pytest tests/
-
-# Run with coverage
-pytest --cov=. tests/
-
-# Run specific test file
-pytest tests/test_myers.py -v
-```
-
-## Commit Messages
-
-Use clear, descriptive commit messages:
-
-- **Format**: `type: brief description`
-- **Types**: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
-- **Example**: `feat: add three-way merge support`
-
-## Pull Request Process
-
-1. **Update documentation** if needed
-2. **Add tests** for new features
-3. **Ensure all tests pass**
-4. **Update CHANGELOG.md** (if applicable)
-5. **Create a pull request** with a clear description
-
-### PR Description Template
-
-```markdown
-## Description
-Brief description of changes
-
-## Type of Change
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Breaking change
-- [ ] Documentation update
-
-## Testing
-How was this tested?
-
-## Checklist
-- [ ] Code follows style guidelines
-- [ ] Tests added/updated
-- [ ] Documentation updated
-- [ ] All tests pass
-```
-
-## Areas for Contribution
-
-- **Bug fixes**: Check open issues
-- **New features**: Discuss in issues first
-- **Documentation**: Improve README, add examples
-- **Tests**: Increase test coverage
-- **Plugins**: Create useful plugins
-- **Performance**: Optimize slow operations
+- Run tests before submitting PRs
+- Add tests for new features
+- Ensure all tests pass
 
 ## Questions?
 
-- Open an **issue** for questions
-- Check existing **issues** and **discussions**
-- Review the **codebase** for examples
+Feel free to open an issue with the "question" label or reach out to maintainers.
 
-Thank you for contributing! 🎉
+Thank you for contributing! 🙏

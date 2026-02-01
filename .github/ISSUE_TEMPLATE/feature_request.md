@@ -10,16 +10,19 @@ assignees: ''
 A clear and concise description of the feature you'd like to see.
 
 ## Problem Statement
-Is your feature request related to a problem? Please describe.
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+What problem does this feature solve? Why is it needed?
 
 ## Proposed Solution
-Describe the solution you'd like.
-A clear and concise description of what you want to happen.
+Describe how you envision this feature working.
 
 ## Alternatives Considered
-Describe alternatives you've considered.
-A clear and concise description of any alternative solutions or features you've considered.
+Describe any alternative solutions or features you've considered.
+
+## Use Cases
+Provide specific examples of how this feature would be used.
 
 ## Additional Context
-Add any other context, screenshots, or examples about the feature request here.
+Add any other context, mockups, or examples about the feature request here.
+
+## Implementation Notes
+If you have ideas on how this could be implemented, please share them.
