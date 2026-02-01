@@ -201,7 +201,7 @@ This script will:
 
 ### Method 3: Standalone Executable
 
-Download the pre-built executable from [Releases](https://github.com/yourusername/python-examdiff/releases) and run `PythonExamDiff.exe` directly.
+Download the pre-built executable from [Releases](https://github.com/gwaghmar/python-examdiff/releases) and run `PythonExamDiff.exe` directly.
 
 ### Building Executable from Source
 
