@@ -52,10 +52,10 @@ dev = [
 examdiff = "main:main"
 
 [project.urls]
-Homepage = "https://github.com/YOUR_USERNAME/python-examdiff"
-Documentation = "https://github.com/YOUR_USERNAME/python-examdiff/wiki"
-Repository = "https://github.com/YOUR_USERNAME/python-examdiff"
-Issues = "https://github.com/YOUR_USERNAME/python-examdiff/issues"
+Homepage = "https://github.com/gwaghmar/python-examdiff"
+Documentation = "https://github.com/gwaghmar/python-examdiff/wiki"
+Repository = "https://github.com/gwaghmar/python-examdiff"
+Issues = "https://github.com/gwaghmar/python-examdiff/issues"
 
 [tool.setuptools]
 packages = ["gui", "core", "utils", "plugins"]

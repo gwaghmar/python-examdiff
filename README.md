@@ -171,7 +171,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/python-examdiff.git
+   git clone https://github.com/gwaghmar/python-examdiff.git
    cd python-examdiff
    ```
 
@@ -502,7 +502,7 @@ python-examdiff/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/python-examdiff.git
+   git clone https://github.com/gwaghmar/python-examdiff.git
    cd python-examdiff
    ```
 
@@ -603,8 +603,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/python-examdiff/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/python-examdiff/discussions)
+- **Issues**: [GitHub Issues](https://github.com/gwaghmar/python-examdiff/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/gwaghmar/python-examdiff/discussions)
 - **Documentation**: See [USAGE.md](USAGE.md) for detailed usage guide
 
 ---
@@ -628,6 +628,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ for developers who need powerful comparison tools**
 
-[⭐ Star this repo](https://github.com/yourusername/python-examdiff) • [🐛 Report Bug](https://github.com/yourusername/python-examdiff/issues) • [💡 Request Feature](https://github.com/yourusername/python-examdiff/issues)
+[⭐ Star this repo](https://github.com/gwaghmar/python-examdiff) • [🐛 Report Bug](https://github.com/gwaghmar/python-examdiff/issues) • [💡 Request Feature](https://github.com/gwaghmar/python-examdiff/issues)
 
 </div>
